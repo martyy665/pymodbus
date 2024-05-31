@@ -10,6 +10,7 @@ helps make pymodbus a better product.
 
 Version 3.7.0
 -------------
+* Fix writing to serial (rs485) on windows os. (#2191)
 * Remember to remove serial writer. (#2209)
 * Transaction_id for serial == 0. (#2208)
 * Update client.rst (#2199)
