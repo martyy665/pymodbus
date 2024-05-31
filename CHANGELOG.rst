@@ -7,6 +7,59 @@ helps make pymodbus a better product.
 
 :ref:`Authors`: contains a complete list of volunteers have contributed to each major version.
 
+
+Version 3.7.0
+-------------
+* Remember to remove serial writer. (#2209)
+* Transaction_id for serial == 0. (#2208)
+* Update client.rst (#2199)
+* Fix usage file names (#2194)
+* Show error if example is run without support files. (#2189)
+* Solve pylint error.
+* Describe zero_mode in ModbusSlaveContext.__init__ (#2187)
+* Sync TLS needs time before reading frame (#2186)
+* Datastore will not return ExceptionResponse. (#2175)
+* call async datastore from modbus server (#2144)
+* Transaction id overrun.
+* Update transaction.py (#2174)
+* Add minimal devcontainer. (#2172)
+* Sphinx: do not turn warnings into errors.
+* Fix usage of AsyncModbusTcpClient in client docs page (#2169)
+* Bump actions CI. (#2166)
+* Request/Response: change execute to be async method (#2142)
+* datastore: add async_setValues/getValues methods (#2165)
+* fixed kwargs not being expanded for actions on bit registers, adjusted tests to catch this issue (#2161)
+* PDU classes --> pymodbus/pdu. (#2160)
+* Speed up no data detection. (#2150)
+* Clean datastore setValues. (#2145)
+* RTU decode hunt part. (#2138)
+* modbus_server: call execute in a way that those can be either coroutines or normal methods (#2139)
+* test_simulator: use unused_tcp_port fixture (#2141)
+* streamline imports in Factory.py (#2140)
+* Dislodge client classes from modbusProtocol. (#2137)
+* Merge new message layer and old framer directory. (#2135)
+* Secure testing is done with pymodbus in PR. (#2136)
+* Fix link to github in README (#2134)
+* Streamline message class. (#2133)
+* Coverage == 91%. (#2132)
+* Remove binary_framer. (#2130)
+* SOCKET/TLS framer using message decode(). (#2129)
+* ASCII framer using message decode() (#2128)
+* Wildcard exception catch from pyserial. (#2125)
+* on_reconnect_callback --> on_connect_callback. (#2122)
+* Remove certfile,keyfile,password from TLS client. (#2121)
+* Add generate_ssl() to TLS client as helper. (#2120)
+* add _legacy_decoder to message rtu (#2119)
+* Problem with stale CI. (#2117)
+* Add connection exception to list of exceptions catpured in retries (#2113)
+* Drop support for python 3.8 (#2112)
+* Move on_reconnect to client level (#2111)
+* Bump github stale. (#2110)
+* update package_test_tool (add 4 test scenarios) (#2107)
+* Bump dependencies. (#2108)
+* Cancel send if no connection. (#2103)
+
+
 Version 3.6.8
 -------------
 * Allow socket exception response with wrong length

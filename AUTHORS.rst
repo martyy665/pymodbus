@@ -43,6 +43,7 @@ Thanks to
 - Jakob Ruhe
 - Jakob Schlyter
 - James Braza
+- James Cameron
 - James Hilliard
 - jan iversen
 - Jerome Velociter
@@ -52,6 +53,7 @@ Thanks to
 - julian
 - Justin Standring
 - Kenny Johansson
+- Martyy
 - Matthias Straka
 - laund
 - Logan Gunthorpe
@@ -63,13 +65,16 @@ Thanks to
 - Pavel Kostromitinov
 - peufeu2
 - Philip Couling
+- Qi Li
 - Sebastian Machuca
 - Sefa Keleş
 - Steffen Beyer
+- sumguytho
 - Thijs W
 - Totally a booplicate
 - WouterTuinstra
 - wriswith
+- Yohrog
 - yyokusa
 
 
